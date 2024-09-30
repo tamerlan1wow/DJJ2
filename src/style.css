@@ -297,8 +297,8 @@ footer a {
     }
 
     .interests p {
-        margin-top: 5px; /* Отступ сверху для параграфов */
-        margin-bottom: 10px; /* Убираем отступ снизу */
+        margin-top: 10px; /* Отступ сверху для параграфов */
+        margin-bottom: 0; /* Убираем отступ снизу */
     }
 
     h2 {

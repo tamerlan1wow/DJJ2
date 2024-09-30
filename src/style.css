@@ -51,6 +51,7 @@
     box-shadow: 10px 10px 5px rgb(78, 78, 78);
     width: 50%; /* Ширина изображения составляет 50% от ширины родительского элемента */
     height: auto; 
+    margin: auto;
 }
 .container img:hover {
     transform: scale(1.1); /* Увеличение изображения на 10% */

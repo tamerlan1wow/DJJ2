@@ -51,7 +51,6 @@
     box-shadow: 10px 10px 5px rgb(78, 78, 78);
     width: 50%; /* Ширина изображения составляет 50% от ширины родительского элемента */
     height: auto; 
-    margin: center;
 }
 .container img:hover {
     transform: scale(1.1); /* Увеличение изображения на 10% */
@@ -250,11 +249,261 @@ footer a {
     background-color: #91130c; /* Change the background color of the button on hover */ 
     color: rgb(248, 243, 243); /* Change the text color of the button on hover */ 
 }
+.math {
+    display: flex;
+}
+    
+.math form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+    width: 100%;
+}
+.math form fieldset {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.math form fieldset legend {
+    
+    text-align: center;
+    
+    font-size: 1.2rem;
+}
+.math form fieldset .counters {
+
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: center;
+    
+    gap: 10px;
+    
+    margin-bottom: 20px;
+    
+}
+.butcont2 button:hover{
+    background-color: #91130c;
+    color: aliceblue;
+
+
+}
+.math form fieldset .butcont{
+    flex-direction: center;
+}
+.butcont button:hover{
+    background-color: #91130c;
+    color: aliceblue;
+
+
+}
+.butcont2 button{
+    padding: 15px 30px;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+}
+.butcont button{
+    padding: 15px 30px;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.butcont{
+    width: 10px;
+}
+    
+.math form fieldset .counters div {
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    width: 50%;
+    
+    margin: auto;
+    
+}
+    
+.math form fieldset .counters div label, input {
+    
+    margin: auto;
+    
+    text-align: center;
+    
+}
+    
+.math form fieldset .counters div input {
+    
+    width: 70%;
+    
+    font-size: 1.1rem;
+    
+    color: black
+}
+.math form fieldset .butcont {
+    gap: 20px;
+    display: flex;
+    
+    flex: center;
+    
+    width: 100%;
+    
+    margin-bottom: 20px;
+}
+    
+.math form fieldset.butcont1 button {
+   
+    display: block;
+    
+    width: 20%;
+    
+    box-sizing: border-box;
+    
+    height: 40px;
+    
+    margin: auto;
+    
+}
+    
+.math form fieldset p {
+    
+    display: flex;
+    
+    margin: 0;
+    
+}
+    
+.math form fieldset p span {
+    
+    margin: auto;
+    
+    font-size: 1.2rem;
+    
+}
+.math form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+    width: 100%;
+}
+.math form fieldset {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.math form fieldset legend {
+    
+    text-align: center;
+    
+    font-size: 1.2rem;
+}
+
+
+
+.math form fieldset .counters2 {
+    flex: 1;
+    display:flex;
+    
+    flex-direction:column;
+    
+    
+    justify-content: space-between;
+    
+    gap: 10px;
+    
+    margin-bottom: 20px;
+    
+}
+.bebra{
+    display: flex;
+    flex-direction: column;
+}
+    
+.math form fieldset .counters2 div {
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    width: 50%;
+    
+    margin: auto;
+    
+}
+    
+.math form fieldset .counters2 div label, input {
+    
+    margin: auto;
+    
+    text-align: center;
+    
+}
+    
+.math form fieldset .counters2 div input {
+    
+    width: 70%;
+    
+    font-size: 1.1rem;
+    
+    color: black
+}
+.math form fieldset .butcont2 {
+
+    display: flex;
+    
+    flex: row;
+    
+    width: 100%;
+    
+    margin-bottom: 20px;
+}
+    
+.math form fieldset.butcont2 button {
+    
+    display: block;
+    
+    width: 20%;
+    
+    box-sizing: border-box;
+    
+    height: 40px;
+    
+    margin: auto;
+    
+}
+    
+.math form fieldset p {
+    
+    display: flex;
+    
+    margin: 0;
+    
+}
+    
+.math form fieldset p span {
+    
+    margin: auto;
+    
+    font-size: 1.2rem;
+    
+}
+
 
 
 @media (max-width: 700px) {
     /* При ширине экрана до 700px */
-
+    
     .container {
         display: flex;
         flex-direction: column; /* Переключение на вертикальный макет */
@@ -264,8 +513,8 @@ footer a {
         display: flex;
         flex-direction: column; /* Внутренние элементы располагаются вертикально */
         flex-wrap: wrap; /* Перенос элементов на новую строку при необходимости */
-        width: 100%; /* Элемент занимает всю ширину контейнера */
-        margin: 0; /* Убираем отступы */
+        width: 30%; /* Элемент занимает всю ширину контейнера */
+        margin:auto /* Убираем отступы */
     }
     .burger {
         display: none;
@@ -281,7 +530,7 @@ footer a {
         box-shadow: 5px 5px 5px gray; /* Тень для изображений */
         width: 95%; /* Изображение занимает 95% ширины контейнера */
         height: auto; /* Высота автоматически подстраивается под ширину */
-        margin: auto; /* Центрирование изображения по горизонтали */
+        margin: center; /* Центрирование изображения по горизонтали */
     }
 
     .container img:hover {
@@ -294,7 +543,7 @@ footer a {
         flex-direction: column; /* Внутренние элементы располагаются вертикально */
         flex-wrap: wrap; /* Перенос элементов на новую строку при необходимости */
         width: 100%; /* Элемент занимает всю ширину контейнера */
-        margin: 0; /* Убираем отступы */
+        margin:0; /* Убираем отступы */
     }
 
     .interests p {
@@ -447,6 +696,9 @@ footer a {
     }
     .form form fieldset {
         width: 80%;
+    }
+    .math form fieldset {
+        width: 70%;
     }
 }
 
